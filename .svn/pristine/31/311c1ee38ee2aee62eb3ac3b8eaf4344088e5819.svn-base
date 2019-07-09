@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" output="test-classes" path="test"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/aopalliance.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/gin-1.5-post-gwt-2.2.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/hibernate-validator-4.1.0.Final.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/jasypt-1.7.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/javax.inject.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/validation-api-1.0.0.GA.jar" sourcepath="P:/Users/andy/.m2/repository/javax/validation/validation-api/1.0.0.GA/validation-api-1.0.0.GA-sources.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/guice-3.0.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/guice-assistedinject-3.0.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/guice-servlet-3.0.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/guice-throwingproviders-3.0.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/objectify-3.0.jar" sourcepath="C:/disks/google.com/google-app-engine/objectify-3.0/objectify-3.0/src">
+		<attributes>
+			<attribute name="javadoc_location" value="file:/C:/disks/google.com/google-app-engine/objectify-3.0/objectify-3.0/javadoc/"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/gwt-servlet-deps.jar"/>
+	<classpathentry kind="lib" path="war/WEB-INF/lib/gwt-gae-channel-0.4-alpha.jar"/>
+	<classpathentry kind="src" path=".apt_generated">
+		<attributes>
+			<attribute name="optional" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="com.google.appengine.eclipse.core.GAE_CONTAINER"/>
+	<classpathentry kind="con" path="com.google.gwt.eclipse.core.GWT_CONTAINER/GWT (1)"/>
+	<classpathentry kind="output" path="war/WEB-INF/classes"/>
+</classpath>
